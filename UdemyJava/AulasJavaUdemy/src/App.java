@@ -280,6 +280,36 @@ public class App {
          * System.out.println(vet[3]);
          */
 
+        /*
+         * Funções em classes recebem o nome de "métodos"
+         */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Coloque três números...");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int maioNumero = maior(a, b, c);
+
+        Resultado(maioNumero);
+
         System.out.println("\n\n\nFim po programa");
     }
+
+    public static int maior(int x, int y, int z) {
+        int aux;
+        if (x > y && x > z) {
+            aux = x;
+        } else if (y > z) {
+            aux = y;
+        } else {
+            aux = z;
+        }
+        return aux;
+    }
+
+    public static void Resultado(int value) {
+        System.out.println("maior número: " + value);
+    }
+
 }
