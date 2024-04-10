@@ -251,38 +251,43 @@ public class App {
          * Substituir: Replace(char,char), replace(string,string)
          * Buscar: IndexOf, LastIndexof
          * Splitar: str.Split("")
+         * 
+         * segue os exemplos
+         * 
+         * Scanner sc = new Scanner(System.in);
+         * sc.close();
+         * String Original = "abcde FGHIJ ABC abc DEFG   ";
+         * 
+         * String S01 = Original.toLowerCase();
+         * String s02 = Original.toUpperCase();
+         * String s03 = Original.trim();
+         * String s04 = Original.substring(2);
+         * String s05 = Original.substring(2, 9);
+         * // char ou caractere únicos use aspas simples
+         * String s06 = Original.replace('a', 'x');
+         * // string use aspas duplas
+         * String s07 = Original.replace("abc", "xy");
+         * int n01 = Original.indexOf("bc");
+         * int n02 = Original.lastIndexOf("bc");
+         * 
+         * System.out.println("-" + Original + "-");
+         * System.out.println("-" + S01 + "-");
+         * System.out.println("-" + s02 + "-");
+         * System.out.println("-" + s03 + "-");
+         * System.out.println("-" + s04 + "-");
+         * System.out.println("-" + s05 + "-");
+         * System.out.println("-" + s06 + "-");
+         * System.out.println("-" + s07 + "-");
+         * System.out.println("-" + n01 + "-");
+         * System.out.println("-" + n02 + "-");
+         * 
+         * String s = "potato apple lemon orange";
+         * String[] vet = s.split(" ");
+         * System.out.println(vet[0]);
+         * System.out.println(vet[1]);
+         * System.out.println(vet[2]);
+         * System.out.println(vet[3]);
          */
-        Scanner sc = new Scanner(System.in);
-        sc.close();
-        String Original = "abcde FGHIJ ABC abc DEFG   ";
-
-        String S01 = Original.toLowerCase();
-        String s02 = Original.toUpperCase();
-        String s03 = Original.trim();
-        String s04 = Original.substring(2);
-        String s05 = Original.substring(2, 9);
-        String s06 = Original.replace('a', 'x');// char ou caractere únicos use aspas simples
-        String s07 = Original.replace("abc", "xy");// string use aspas duplas
-        int n01 = Original.indexOf("bc");
-        int n02 = Original.lastIndexOf("bc");
-
-        System.out.println("-" + Original + "-");
-        System.out.println("-" + S01 + "-");
-        System.out.println("-" + s02 + "-");
-        System.out.println("-" + s03 + "-");
-        System.out.println("-" + s04 + "-");
-        System.out.println("-" + s05 + "-");
-        System.out.println("-" + s06 + "-");
-        System.out.println("-" + s07 + "-");
-        System.out.println("-" + n01 + "-");
-        System.out.println("-" + n02 + "-");
-
-        String s = "potato apple lemon orange";
-        String[] vet = s.split(" ");
-        System.out.println(vet[0]);
-        System.out.println(vet[1]);
-        System.out.println(vet[2]);
-        System.out.println(vet[3]);
 
         System.out.println("\n\n\nFim po programa");
     }
