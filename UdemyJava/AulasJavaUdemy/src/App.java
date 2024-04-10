@@ -12,7 +12,6 @@ public class App {
          * divisão /
          * Mod ou resto %
          */
-
         /*
          * Variáveis
          * byte------------ -128 a 127
@@ -24,7 +23,6 @@ public class App {
          * char------------ '\u0000' a '\uFFFF'
          * boolean--------- {false, true}
          */
-
         /*
          * int y = 32;
          * double x = 10.35784;
@@ -36,7 +34,6 @@ public class App {
          * System.out.printf("resultado: " + x + "Metros\n");
          * System.out.printf("resultado: %.2f Metros\n", x);
          */
-
         /*
          * String nome = "Maria";
          * int idade = 31;
@@ -44,7 +41,6 @@ public class App {
          * System.out.println("-----------------------------\n\n");
          * System.out.printf("%s tem %d anos e ganha %.2f reais", nome, idade, renda);
          */
-
         /*
          * Atribuição Casting
          * 
@@ -63,7 +59,6 @@ public class App {
          * System.out.println(area);
          * System.out.println(resultado);
          */
-
         /*
          * Entrada de Dados
          * 
@@ -100,7 +95,6 @@ public class App {
          * System.out.println(s3);
          * sc.close();
          */
-
         /*
          * Funções matemáticas
          * Exemplo | Significado
@@ -148,7 +142,6 @@ public class App {
          * System.out.printf("Valor da Expressão de segundo grau x1 = %.1f\n ", X1);
          * System.out.printf("Valor da Expressão de segundo grau x2 = %.1f\n\n ", X2);
          */
-
         /*
          * Condições if else e switch case
          * 
@@ -216,7 +209,6 @@ public class App {
          * break;
          * }
          */
-
         /*
          * Laços de repetições
          * 
@@ -242,7 +234,6 @@ public class App {
          * 
          * sc.close();
          */
-
         /*
          * Checklist
          *
